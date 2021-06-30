@@ -143,32 +143,32 @@ untitled34/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled34.dir/build.make CMakeFiles/untitled34.dir/build
 .PHONY : untitled34/fast
 
-main.o: main.cpp.o
+nRainhas.o: nRainhas.cpp.o
 
-.PHONY : main.o
+.PHONY : nRainhas.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled34.dir/build.make CMakeFiles/untitled34.dir/main.cpp.o
-.PHONY : main.cpp.o
+nRainhas.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled34.dir/build.make CMakeFiles/untitled34.dir/nRainhas.cpp.o
+.PHONY : nRainhas.cpp.o
 
-main.i: main.cpp.i
+nRainhas.i: nRainhas.cpp.i
 
-.PHONY : main.i
+.PHONY : nRainhas.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled34.dir/build.make CMakeFiles/untitled34.dir/main.cpp.i
-.PHONY : main.cpp.i
+nRainhas.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled34.dir/build.make CMakeFiles/untitled34.dir/nRainhas.cpp.i
+.PHONY : nRainhas.cpp.i
 
-main.s: main.cpp.s
+nRainhas.s: nRainhas.cpp.s
 
-.PHONY : main.s
+.PHONY : nRainhas.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled34.dir/build.make CMakeFiles/untitled34.dir/main.cpp.s
-.PHONY : main.cpp.s
+nRainhas.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/untitled34.dir/build.make CMakeFiles/untitled34.dir/nRainhas.cpp.s
+.PHONY : nRainhas.cpp.s
 
 # Help Target
 help:
@@ -179,9 +179,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... untitled34"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... nRainhas.o"
+	@echo "... nRainhas.i"
+	@echo "... nRainhas.s"
 .PHONY : help
 
 

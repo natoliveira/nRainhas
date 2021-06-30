@@ -104,7 +104,8 @@ void executar(vector<vector<int> > & tab, int N, int col)
     }
 }
 
-int main(int argc, char *argv[]) {
+int main(int argc, char *argv[])
+{
     // número de rainhas
     int N = 8;
 
@@ -112,7 +113,8 @@ int main(int argc, char *argv[]) {
     vector<vector<int> > tab;
 
     // inserindo todas as linhas
-    for (int i = 0; i < N; i++) {
+    for(int i = 0; i < N; i++)
+    {
         vector<int> linha(N);
         tab.push_back(linha);
     }
